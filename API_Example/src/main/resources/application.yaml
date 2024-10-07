@@ -1,0 +1,16 @@
+spring:
+  application:
+    description: Api Example
+    name: api-hub
+    version: 1
+
+server:
+  port: 9000
+  servlet:
+    context-path: /hub
+
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: full
